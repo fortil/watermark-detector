@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "watermark-detector"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["c2pa-python==0.38.0", "pypdf>=6.20,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10", "pillow>=12,<13", "cryptography>=50"]
+
+[project.scripts]
+wmd = "watermark_detector.cli:main"
+watermark-detector = "watermark_detector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+watermark_detector = ["trust/*.pem", "trust/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
+addopts = "-ra"

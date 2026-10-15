@@ -1,0 +1,28 @@
+{
+  "files": {
+    "C.jpg": {
+      "url": "https://raw.githubusercontent.com/contentauth/c2pa-python/v0.38.0/tests/fixtures/C.jpg",
+      "sha256": "4cbac1af485155f878d12a610da851c2938f2ce886189c61d9da7a0a43bd00b5",
+      "fetched_at": "2026-10-15",
+      "certificates": null,
+      "license": "MIT OR Apache-2.0 (contentauth/c2pa-python v0.38.0)",
+      "notes": ""
+    },
+    "A.jpg": {
+      "url": "https://raw.githubusercontent.com/contentauth/c2pa-python/v0.38.0/tests/fixtures/A.jpg",
+      "sha256": "f999fd78bfe8a83c96e468a078830ba94485bc1bc6fd086fb94a43bd29dd0f23",
+      "fetched_at": "2026-10-15",
+      "certificates": null,
+      "license": "MIT OR Apache-2.0 (contentauth/c2pa-python v0.38.0)",
+      "notes": ""
+    },
+    "LICENSE-c2pa-python-MIT.txt": {
+      "url": "https://raw.githubusercontent.com/contentauth/c2pa-python/v0.38.0/LICENSE-MIT",
+      "sha256": "89375a50de90d2dcaa04406086da832ad452ebcaf6ab402ef3d51b8401a67c71",
+      "fetched_at": "2026-10-15",
+      "certificates": null,
+      "license": "MIT OR Apache-2.0 (contentauth/c2pa-python v0.38.0)",
+      "notes": ""
+    }
+  }
+}

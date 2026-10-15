@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "samples": [
+    {"id": "1-claude-png", "path": "samples/claude.png", "expect": {"layer": "c2pa", "provider": "claude", "verdict_in": ["claimed"]}},
+    {"id": "1-claude-png-screenshot", "path": "samples/claude_screenshot.png", "expect": {"no_provider_signal": true}},
+    {"id": "2-claude-svg", "path": "samples/claude.svg", "expect": {"layer": "c2pa", "provider": "claude", "verdict_in": ["claimed"]}},
+    {"id": "3-claude-api", "path": "samples/claude_api.png", "expect": {"layer": "c2pa", "provider": "claude", "verdict_in": ["claimed"]}},
+    {"id": "4-claude-docx", "path": "samples/claude.docx", "expect": {"no_provider_signal": true}},
+    {"id": "5-claude-text", "path": "samples/claude_prose.txt", "expect": {"layer": "text-watermark", "provider": "claude", "verdict_in": ["not_run", "score"]}},
+    {"id": "6-gpt-chatgpt-image", "path": "samples/chatgpt.png", "expect": {"layer": "c2pa", "provider": "gpt", "verdict_in": ["claimed", "confirmed"]}},
+    {"id": "7-gpt-api-image", "path": "samples/gpt_image_api.png", "expect": {"layer": "c2pa", "provider": "gpt", "verdict_in": ["claimed", "confirmed"]}},
+    {"id": "8-gpt-text", "path": "samples/gpt_prose.txt", "expect": {"layer": "text-watermark", "provider": "gpt", "verdict_in": ["not_run", "score"]}},
+    {"id": "9-gemini-image", "path": "samples/gemini.png", "expect": {"layer": "c2pa", "provider": "gemini", "verdict_in": ["confirmed", "claimed"]}},
+    {"id": "10-gemini-text", "path": "samples/gemini_prose.txt", "expect": {"no_provider_signal": true}},
+    {"id": "11-camera", "path": "samples/phone_photo.jpg", "expect": {"no_provider_signal": true}},
+    {"id": "12-zai-image-cn", "path": "samples/zai_bigmodel.jpg", "expect": {"layer": "aigc-label", "provider": "zai", "verdict_in": ["unsigned_hint"], "location": "file"}},
+    {"id": "13-zai-image-intl", "path": "samples/zai_api.jpg", "expect": {"layer": "aigc-label", "provider": "zai", "verdict_in": ["unsigned_hint"], "location": "file"}},
+    {"id": "14-zai-video", "path": "samples/cogvideox3.mp4", "expect": {"layer": "aigc-label", "provider": "zai", "verdict_in": ["unsigned_hint"], "location": "file"}},
+    {"id": "15-zai-text", "path": "samples/zai_prose.txt", "expect": {"no_provider_signal": true}}
+  ]
+}

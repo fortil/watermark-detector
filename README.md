@@ -1,5 +1,12 @@
 # watermark-detector
 
+<p align="center">
+  <a href="https://github.com/fortil/watermark-detector"><img src="https://img.shields.io/badge/github-fortil%2Fwatermark--detector-181717?logo=github" alt="github.com/fortil/watermark-detector"></a>
+  <img src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white" alt="Python 3.11+">
+  <img src="https://img.shields.io/badge/detects-C2PA%20%7C%20IPTC%20XMP%20%7C%20GB%2045438-4B3B99" alt="detects C2PA, IPTC XMP and GB 45438">
+  <img src="https://img.shields.io/badge/CLI-wmd-2B2B2B" alt="wmd command line">
+</p>
+
 A command line tool and Python library that looks for AI provenance signals in files from Claude, Gemini, GPT and Z.AI. It only detects. It does not remove, alter or hide any mark.
 
 For a step-by-step walkthrough, see the [usage guide](docs/43.03-guide/usage-guide.md).
